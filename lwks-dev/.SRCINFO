@@ -1,4 +1,4 @@
-pkgbase = lwks-beta
+pkgbase = lwks-dev
 	pkgdesc = Lightworks is a professional video editing suite
 	pkgver = 2021.1.
 	pkgrel = 1

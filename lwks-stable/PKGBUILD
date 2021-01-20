@@ -24,7 +24,7 @@ optdepends=('nvidia-utils: only for nVidia users')
 provides=('lightworks')
 conflicts=('lightworks' 'lwks14' 'lwks-beta' 'lwks-dev')
 source=(
-    "https://github.com/HougeLangley/lwks-beta/releases/download/lwks-reversion/lightworks_$lwksver_$lwksbuild.deb"
+    "https://github.com/HougeLangley/lwks-beta/releases/download/lwks-reversion/lightworks_$pkgver.deb"
     )
 
 sha512sums=(
