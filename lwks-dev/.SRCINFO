@@ -1,0 +1,35 @@
+pkgbase = lwks-beta
+	pkgdesc = Lightworks is a professional video editing suite
+	pkgver = 2021.1.
+	pkgrel = 1
+	url = http://www.lwks.com/
+	arch = x86_64
+	license = EditShare
+	depends = cairo
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = libjpeg-turbo
+	depends = pango
+	depends = curl
+	depends = gtk3
+	depends = portaudio
+	depends = openssl
+	depends = libgl
+	depends = libtiff
+	depends = libutil-linux
+	depends = ffmpeg
+	depends = glu
+	depends = libedit
+	depends = nvidia-cg-toolkit
+	optdepends = nvidia-utils: only for nVidia users
+	provides = lightworks
+	conflicts = lightworks
+	conflicts = lwks
+	conflicts = lwks-beta
+	conflicts = lwks-stable
+	options = !strip
+	source = https://github.com/HougeLangley/lwks-beta/releases/download/lwks-reversion/Lightworks-2021.1-Beta-126676.deb
+	sha512sums = 09be97d250cf87a3d0653d3ac2789efa8862161d2257e60a604e4469eabeff2267efe8eb3d89f6ebe7c1551cc6eb97eb182236d8693c5b06039795510771ef34
+
+pkgname = lwks-dev
+

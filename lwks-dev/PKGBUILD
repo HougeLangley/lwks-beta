@@ -9,10 +9,10 @@
 # Contributor: N30N <archlinux [at] alunamation [dot] com>
 # Contributor: Houge_Langley <hougelangley1987 [at] gmail [dot] com>
 
-pkgname=lwks-beta
+pkgname=lwks-dev
 lwksver=2021.1
-lwksbuild=126676
-pkgver=$lwksver.$lwksbuild
+lwksbuild=Beta-126676
+pkgver=$lwksver_$lwksbuild
 pkgrel=1
 pkgdesc="Lightworks is a professional video editing suite"
 arch=('x86_64')
@@ -22,9 +22,9 @@ license=('EditShare')
 depends=('cairo' 'gdk-pixbuf2' 'glib2' 'libjpeg-turbo' 'pango' 'curl' 'gtk3' 'portaudio' 'openssl' 'libgl' 'libtiff' 'libutil-linux' 'ffmpeg' 'glu' 'libedit' 'nvidia-cg-toolkit')
 optdepends=('nvidia-utils: only for nVidia users')
 provides=('lightworks')
-conflicts=('lightworks' 'lwks')
+conflicts=('lightworks' 'lwks14' 'lwks-beta' 'lwks-stable')
 source=(
-    "https://github.com/HougeLangley/customkernel/releases/download/LWS/Lightworks-$lwksver-Beta-$lwksbuild.deb"
+    "https://github.com/HougeLangley/lwks-beta/releases/download/lwks-reversion/Lightworks-$lwksver-$lwksbuild.deb"
     )
 
 sha512sums=(
