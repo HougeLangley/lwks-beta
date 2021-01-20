@@ -11,8 +11,8 @@
 
 pkgname=lwks-dev
 lwksver=2021.1
-lwksbuild=-Beta-126676
-pkgver=$lwksver_$lwksbuild
+lwksbuild=Beta-126676
+pkgver=$lwksver$lwksbuild
 pkgrel=1
 pkgdesc="Lightworks is a professional video editing suite"
 arch=('x86_64')
@@ -24,7 +24,7 @@ optdepends=('nvidia-utils: only for nVidia users')
 provides=('lightworks')
 conflicts=('lightworks' 'lwks14' 'lwks-beta' 'lwks-stable')
 source=(
-    "https://github.com/HougeLangley/lwks-beta/releases/download/lwks-reversion/Lightworks-$lwksver$lwksbuild.deb"
+    "https://github.com/HougeLangley/lwks-beta/releases/download/lwks-reversion/Lightworks-$lwksver-$lwksbuild.deb"
     )
 
 sha512sums=(
