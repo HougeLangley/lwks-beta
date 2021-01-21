@@ -1,6 +1,6 @@
 pkgbase = lwks-stable
 	pkgdesc = Lightworks is a professional video editing suite
-	pkgver = 2021.1.
+	pkgver = 2021.1_r126716
 	pkgrel = 1
 	url = http://www.lwks.com/
 	arch = x86_64
@@ -28,8 +28,8 @@ pkgbase = lwks-stable
 	conflicts = lwks-beta
 	conflicts = lwks-dev
 	options = !strip
-	source = https://github.com/HougeLangley/lwks-beta/releases/download/lwks-reversion/lightworks_2020.1.1_r124942.deb
-	sha512sums = 9b462a1c3397fa069316560cb58ce39f4122fbb70df5ce518f1efcbad1e11e479368225f1e5be54e8b34d0693f36327959fc3f20928fbaad0f9e4eccb5437bf9
+	source = https://github.com/HougeLangley/lwks-beta/releases/download/lwks-reversion/lightworks_2021.1_r126716.deb
+	sha512sums = 7669f140ed9cd336d61f99d091decd59f7e2a293061e5ef42572e8d77907791deb626238e3101f3d1734824ba17184c8ed72cb1247052655caf7f6bb4cb1af28
 
 pkgname = lwks-stable
 
