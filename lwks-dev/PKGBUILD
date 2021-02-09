@@ -10,7 +10,7 @@
 # Contributor: Marcin Nowak <marcin [dot] j [dot] nowak [at] gmail [dot] com>
 
 pkgname=lwks-dev
-lwksver=2021.1
+lwksver=2021.1.1
 lwksbuild=126966
 pkgver=$lwksver_$lwksbuild
 pkgrel=1
