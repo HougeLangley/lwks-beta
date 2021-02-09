@@ -1,4 +1,4 @@
-# Maintainer: Marcin Nowak <marcin [dot] j [dot] nowak [at] gmail [dot] com>
+# Maintainer: Houge_Langley <hougelangley1987 [at] gmail [dot] com>
 # Contributor: Mateus Rodrigues Costa <charles [dot] costar [at] gmail [dot] com>
 # Contributor: PieterDeBruijn <arch [at] pieterdebruijn [dot] nl [dot] com>
 # Contributor: stjhimy <stjhimy [at] gmail [dot] com>
@@ -7,11 +7,11 @@
 # Contributor: Scias <shining [dot] scias [at] gmail [dot] com>
 # Contributor: darzki <darzki [at] o2 [dot] pl>
 # Contributor: N30N <archlinux [at] alunamation [dot] com>
-# Contributor: Houge_Langley <hougelangley1987 [at] gmail [dot] com>
+# Contributor: Marcin Nowak <marcin [dot] j [dot] nowak [at] gmail [dot] com>
 
 pkgname=lwks-dev
 lwksver=2021.1
-lwksbuild=126676
+lwksbuild=126966
 pkgver=$lwksver_$lwksbuild
 pkgrel=1
 pkgdesc="Lightworks is a professional video editing suite"
@@ -28,7 +28,7 @@ source=(
     )
 
 sha512sums=(
-    '09be97d250cf87a3d0653d3ac2789efa8862161d2257e60a604e4469eabeff2267efe8eb3d89f6ebe7c1551cc6eb97eb182236d8693c5b06039795510771ef34'
+    'bd18dbceea5e5efe4b9ac2890442f13189cf122c004bedac99de96dfbca9a17d11671aabb03dc091714b3a53a0f7d9bb5dcdb56e9ddc0c835ad0b54c8c0f4f4a'
     ) 
 
 package() {
