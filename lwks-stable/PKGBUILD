@@ -1,4 +1,4 @@
-# Maintainer: Marcin Nowak <marcin [dot] j [dot] nowak [at] gmail [dot] com>
+# Maintainer: 苏业钦 <hougelangley1987 [at] gmail [dot] com>
 # Contributor: Mateus Rodrigues Costa <charles [dot] costar [at] gmail [dot] com>
 # Contributor: PieterDeBruijn <arch [at] pieterdebruijn [dot] nl [dot] com>
 # Contributor: stjhimy <stjhimy [at] gmail [dot] com>
@@ -7,7 +7,7 @@
 # Contributor: Scias <shining [dot] scias [at] gmail [dot] com>
 # Contributor: darzki <darzki [at] o2 [dot] pl>
 # Contributor: N30N <archlinux [at] alunamation [dot] com>
-# Contributor: Houge_Langley <hougelangley1987 [at] gmail [dot] com>
+# Contributor: Marcin Nowak <marcin [dot] j [dot] nowak [at] gmail [dot] com>
 
 pkgname=lwks-stable
 lwksver=2020.1
