@@ -10,8 +10,8 @@
 # Contributor: Marcin Nowak <marcin [dot] j [dot] nowak [at] gmail [dot] com>
 
 pkgname=lwks-dev
-lwksver=2021.1.1
-lwksbuild=127414
+lwksver=2021.2
+lwksbuild=127893
 pkgver=$lwksver_$lwksbuild
 pkgrel=1
 pkgdesc="Lightworks is a professional video editing suite"
@@ -28,7 +28,7 @@ source=(
     )
 
 sha512sums=(
-    '968380229abc9cd6de4dd6c62be5d1648ead6fb37e316236fd35b4bf0d989b97c8b6e05ea6f6ad690f68750d4b5ac5b6f6f3bb6781328d2869f0a79eb8536bb1'
+    'b346f5019c1cafc6f2d1304ffa74d6d68f899acd2b07db78db244030db7f5cb39b4ae67aa3d9c15730aa825b683dd41b1cb8f3a678d9374a717e5b82001ee050'
     ) 
 
 package() {
